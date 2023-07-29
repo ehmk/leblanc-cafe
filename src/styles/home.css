@@ -1,0 +1,18 @@
+.home {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.leblanc {
+  border-radius: 10px;
+  align-self: center;
+}
+
+.description {
+  max-width: 50%;
+  align-self: center;
+  margin-top: 50px;
+  line-height: 40px;
+}

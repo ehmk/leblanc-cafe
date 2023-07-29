@@ -1,0 +1,18 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 0px;
+  width: 250px;
+  padding: 10px;
+  margin: 0px 5px 0px 5px;
+}
+
+button:hover {
+  color: lightblue;
+  font-size: 1rem;
+}
