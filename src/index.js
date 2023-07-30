@@ -10,8 +10,6 @@ content.id = 'content';
 content.appendChild(home());
 body.appendChild(navBar());
 body.appendChild(content);
-let currentContent = home();
-console.log(currentContent);
 
 export function switchContentModule(button) {
   if (button.id === 'home') {
