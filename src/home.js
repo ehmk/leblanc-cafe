@@ -48,6 +48,18 @@ const hoursMap = {
   Saturday: '9AM - 10PM',
 };
 
+function address(address) {
+  const addressDiv = document.createElement('div');
+  addressDiv.classList.add('address');
+  const title = document.createElement('h2');
+  title.textContent = 'Address';
+  const addressText = document.createElement('p');
+  addressText.textContent = address;
+  addressDiv.appendChild(title);
+  addressDiv.appendChild(addressText);
+  return addressDiv;
+}
+
 export default function home() {
   const element = document.createElement('div');
   element.classList.add('home');
@@ -58,5 +70,8 @@ export default function home() {
     )
   );
   element.appendChild(hours());
+  element.appendChild(
+    address('1-1 Chome Yongen Jaya, Shibuya, Tokyo 150-0043, Japan')
+  );
   return element;
 }
