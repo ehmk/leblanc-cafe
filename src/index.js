@@ -2,6 +2,7 @@ import navBar from './nav.js';
 import home from './home.js';
 import menu from './menu.js';
 import contact from './contact.js';
+import './styles/css-reset.css';
 import './styles/global.css';
 
 const body = document.body;

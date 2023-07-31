@@ -1,3 +1,7 @@
+h2 {
+  font-size: 50px;
+}
+
 .home {
   margin-top: 50px;
   display: flex;
@@ -17,6 +21,7 @@
   min-width: 50%;
   align-self: center;
   line-height: 40px;
+  margin: 20px;
 }
 
 .description {
@@ -24,8 +29,13 @@
 }
 
 .hours {
-  /* display: flex; */
+  display: flex;
   line-height: 20px;
+  flex-direction: column;
+}
+
+.hours ul {
+  padding: 20px;
 }
 
 .hours li {
@@ -33,6 +43,10 @@
   padding-left: 0;
 }
 
+.address h2 {
+  padding: 0;
+}
+
 .address p {
-  padding-left: 40px;
+  padding-left: 20px;
 }

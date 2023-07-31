@@ -1,3 +1,20 @@
 #menu-module {
-  color: red;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  justify-content: center;
+}
+
+.menu-item {
+  padding: 25px;
+}
+
+.menu-item h2 {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.menu-item p {
+  padding-bottom: 20px;
+  max-width: 700px;
 }
