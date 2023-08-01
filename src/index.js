@@ -5,12 +5,14 @@ import contact from './contact.js';
 import './styles/css-reset.css';
 import './styles/global.css';
 
-const body = document.body;
-let content = document.createElement('div');
-content.id = 'content';
-content.appendChild(home());
-body.appendChild(navBar());
-body.appendChild(content);
+const initializePage = (() => {
+  const body = document.body;
+  let content = document.createElement('div');
+  content.id = 'content';
+  content.appendChild(home());
+  body.appendChild(navBar());
+  body.appendChild(content);
+})();
 
 export function switchContentModule(button) {
   if (button.id === 'home') {
